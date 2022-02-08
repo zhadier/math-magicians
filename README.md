@@ -2,18 +2,17 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project
+# Math Magicians
 
-> This Webpage is for a calculator app called Math
-> Magicians bad it was built using React!
+> This Webpage is for a calculator app called Math Magicians and it was built using React!
 
-![screenshot]()
+![screenshot](https://user-images.githubusercontent.com/90556221/153067436-5482b217-9241-45fd-9699-fe95dc220709.png)
 
 ## Built With
 
 - HTML / CSS / JavaScript / React
 
-## Live Demo
+<!-- ## Live Demo
 
 - [Live Demo Link](https://zhadier.github.io/)
 - [Video Demo Link]()
@@ -21,7 +20,7 @@
 ## Video presentation
 
 [Click here to see the presentation]
-
+ -->
 ## Getting Started
 
 ### To launch the project locally:
