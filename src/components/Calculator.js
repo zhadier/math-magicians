@@ -34,40 +34,45 @@ const Calculator = () => {
   ];
 
   return (
-    <div className="container-calculator">
-      <div className="display">
-        {total || ''}
-        {operation || ''}
-        {next || ''}
+    <section className="calculator-section">
+      <div className="container-heading">
+        <h2>Let&apos;s do some math!</h2>
       </div>
-      {keys.map((values) => {
-        if (
-          values === '+'
-          || values === '-'
-          || values === '='
-          || values === 'x'
-          || values === '÷'
-        ) {
+      <div className="container-calculator">
+        <div className="display">
+          {total || ''}
+          {operation || ''}
+          {next || ''}
+        </div>
+        {keys.map((values) => {
+          if (
+            values === '+'
+            || values === '-'
+            || values === '='
+            || values === 'x'
+            || values === '÷'
+          ) {
+            return (
+              <button type="button" className="button-orange" onClick={handleClick} key={values}>
+                {values}
+              </button>
+            );
+          }
+          if (values === '0') {
+            return (
+              <button type="button" className="button-gray zero" onClick={handleClick} key={values}>
+                {values}
+              </button>
+            );
+          }
           return (
-            <button type="button" className="button-orange" onClick={handleClick} key={values}>
+            <button type="button" className="button-gray" onClick={handleClick} key={values}>
               {values}
             </button>
           );
-        }
-        if (values === '0') {
-          return (
-            <button type="button" className="button-gray zero" onClick={handleClick} key={values}>
-              {values}
-            </button>
-          );
-        }
-        return (
-          <button type="button" className="button-gray" onClick={handleClick} key={values}>
-            {values}
-          </button>
-        );
-      })}
-    </div>
+        })}
+      </div>
+    </section>
   );
 };
 
