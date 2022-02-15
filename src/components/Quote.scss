@@ -1,0 +1,26 @@
+.quote-section {
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+
+  p {
+    padding: 20px;
+    font-size: 1.7rem;
+    font-style: italic;
+    border: 1px solid;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px blue;
+    animation: 5s infinite linear quote;
+  }
+
+  @keyframes quote {
+    0% {
+      filter: hue-rotate(0deg);
+    }
+
+    100% {
+      filter: hue-rotate(360deg);
+    }
+  }
+}
