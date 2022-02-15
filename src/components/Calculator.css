@@ -1,8 +1,21 @@
+.calculator-section {
+  align-items: flex-start;
+}
+
+.container-heading {
+  display: flex;
+}
+
+.container-heading h2 {
+  font-size: 2rem;
+}
+
 .container-calculator {
-  width: 30rem;
+  border: 1px solid black;
+  min-width: 60%;
   height: 25rem;
-  padding: 2px;
-  margin: auto;
+  padding: 10px;
+  margin-left: auto;
   background: #d1d1d1;
   display: grid;
   gap: 2px 2px;
