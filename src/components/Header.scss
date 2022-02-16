@@ -1,0 +1,44 @@
+$dark-blue : rgb(19, 19, 77);
+
+header {
+  display: flex;
+  margin: 50px 2%;
+  background: white;
+  padding: 10px 30px;
+  align-items: center;
+  border: 3px solid;
+  border-radius: 10px;
+
+  .logo {
+    font-size: 2.8rem;
+    color: $dark-blue;
+  }
+
+  nav {
+    display: flex;
+    margin-left: auto;
+
+    ul {
+      list-style: none;
+      display: flex;
+
+      li {
+        padding: 0 20px;
+
+        &:hover {
+          transform: scale(1.15);
+        }
+
+        a {
+          text-decoration: none;
+          font-size: 1.2rem;
+          color: $dark-blue;
+
+          &:hover {
+            color: rgb(165, 135, 135);
+          }
+        }
+      }
+    }
+  }
+}

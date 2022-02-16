@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
+
+.quote-section {
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+
+  p {
+    padding: 20px;
+    font-size: 2rem;
+    border: 1px solid;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 5px blue;
+    background: url(../images/b1.png) center;
+    animation: 5s infinite linear quote;
+    font-family: 'Delius Swash Caps', cursive;
+    font-style: italic;
+  }
+
+  @keyframes quote {
+    0% {
+      filter: hue-rotate(0deg);
+    }
+
+    100% {
+      filter: hue-rotate(360deg);
+    }
+  }
+}

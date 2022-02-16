@@ -1,9 +1,30 @@
+.calculator-section {
+  align-items: flex-start;
+}
+
+.container-heading {
+  display: flex;
+}
+
+.container-heading h2 {
+  font-size: 2rem;
+}
+
 .container-calculator {
-  width: 30rem;
-  height: 25rem;
-  padding: 2px;
+  border-radius: 5px;
+  margin-left: auto;
+  width: 60%;
+  padding: 20px;
+  background: url(../images/b1.png);
+  border: 3px solid black;
+}
+
+.calculator {
   margin: auto;
-  background: #d1d1d1;
+  background: rgb(54, 53, 53);
+  border: 3px solid black;
+  border-radius: 5px;
+  height: 25rem;
   display: grid;
   gap: 2px 2px;
   grid-template: repeat(6, 1fr) / repeat(4, 1fr);
@@ -11,11 +32,12 @@
 
 .display {
   grid-area: 1 / 1 / span 1 / span 4;
-  background-color: rgb(119, 125, 133);
+  background-color: rgb(235, 230, 228);
   padding: 5px;
-  font-size: 2rem;
+  overflow-x: hidden;
+  font-size: 1.9rem;
   display: flex;
-  color: white;
+  color: rgb(49, 48, 48);
   justify-content: flex-end;
   align-items: center;
 }
@@ -35,4 +57,14 @@
 button {
   border: none;
   font-size: 1rem;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: rgb(197, 184, 184);
+}
+
+button:active {
+  background: rgb(179, 168, 168);
+  box-shadow: inset 1px 1px 6px black;
 }
