@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`quotes render correctly 1`] = `
+<section
+  className="quote-section"
+>
+  <p>
+    
+  </p>
+</section>
+`;
