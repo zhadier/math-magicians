@@ -4,33 +4,29 @@
 
 # Math Magicians
 
-> This Webpage is for a calculator app called Math Magicians and it was built using React!
+> "Math Magicians" is a React project for Math lovers. You can view details about the history of Math, make calculations, or view fun random Math Quotes!
 
-![screenshot](https://user-images.githubusercontent.com/90556221/153067436-5482b217-9241-45fd-9699-fe95dc220709.png)
+![preview](maths.gif)
 
 ## Built With
 
 - HTML / CSS / JavaScript / React
 
-<!-- ## Live Demo
+## Live Demo
 
-- [Live Demo Link](https://zhadier.github.io/)
-- [Video Demo Link]()
-
-## Video presentation
-
-[Click here to see the presentation]
- -->
+- [Github Page](https://zhadier.github.io/math-magicians)
 ## Getting Started
 
 ### To launch the project locally:
 
 #### Step 1:
 
-- Clone this repo locally using git and the following
-  git command
+- Clone this repo locally using git in the command line and the following command
 
   git clone https://github.com/zhadier/math-magicians
+  
+- Alternatively, you can just download the complete zip file and extract the folder in your directory
+
 
 #### Step 2:
 
@@ -98,36 +94,6 @@ You can learn more in the
 To learn React, check out the
 [React documentation](https://reactjs.org/).
 
-##### Code Splitting
-
-This section has moved here:
-[https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-##### Analyzing the Bundle Size
-
-This section has moved here:
-[https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-##### Making a Progressive Web App
-
-This section has moved here:
-[https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-##### Advanced Configuration
-
-This section has moved here:
-[https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-##### Deployment
-
-This section has moved here:
-[https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-##### `npm run build` fails to minify
-
-This section has moved here:
-[https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
 ## Authors
 
 👤 **Zeeshan Haider**
@@ -136,17 +102,15 @@ This section has moved here:
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are
-welcome!
+Contributions, issues, and feature requests are welcome and highly encouraged!
+We feel that your input is what helps us grow so you're always Welcome :)
 
 Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
+I would love to hear your thoughts and ideas 🖤
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
