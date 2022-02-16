@@ -1,13 +1,12 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Calculator from '../components/Calculator';
 import {
   cleanup,
   render,
   fireEvent,
-  waitFor,
   screen,
 } from '@testing-library/react';
+import Calculator from '../components/Calculator';
 
 afterEach(() => cleanup());
 
@@ -20,7 +19,7 @@ it('calculator renders correctly', () => {
 it('an h2 should be displayed', () => {
   render(<Calculator />);
 
-  expect(screen.getByRole('heading')).toHaveTextContent(`Let's do some math!`);
+  expect(screen.getByRole('heading')).toHaveTextContent('Let\'s do some math!');
 });
 
 it('Clicking a button should update the display', () => {

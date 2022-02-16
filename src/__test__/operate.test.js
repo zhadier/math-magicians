@@ -42,7 +42,7 @@ test('expect 4 ÷ 0 to throw', () => {
   // act
   const result = operate('4', '0', operation);
   // assert
-  expect(result).toThrow;
+  expect(result).toThrow();
 });
 
 test('expect 3 % 2 to be 1', () => {
@@ -60,5 +60,5 @@ test('expect 4 % 0 to throw', () => {
   // act
   const result = operate('4', '0', operation);
   // assert
-  expect(result).toThrow;
+  expect(result).toThrow();
 });

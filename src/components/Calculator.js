@@ -40,7 +40,7 @@ const Calculator = () => {
       </div>
       <div className="container-calculator">
         <div className="calculator">
-          <div className="display">
+          <div className="display" data-testid="display">
             {total || ''}
             {operation || ''}
             {next || ''}
