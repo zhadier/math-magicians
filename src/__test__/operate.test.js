@@ -60,6 +60,5 @@ test('expect 4 % 0 to throw', () => {
   // act
   const result = operate('4', '0', operation);
   // assert
-  console.log(result)
   expect(result).toMatch("Can't find modulo as can't divide by 0.");
 });
