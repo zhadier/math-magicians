@@ -42,7 +42,7 @@ test('expect 4 ÷ 0 to throw', () => {
   // act
   const result = operate('4', '0', operation);
   // assert
-  expect(result).toThrow();
+  expect(result).toMatch("Can't divide by 0.");
 });
 
 test('expect 3 % 2 to be 1', () => {
@@ -60,5 +60,6 @@ test('expect 4 % 0 to throw', () => {
   // act
   const result = operate('4', '0', operation);
   // assert
-  expect(result).toThrow();
+  console.log(result)
+  expect(result).toMatch("Can't find modulo as can't divide by 0.");
 });
