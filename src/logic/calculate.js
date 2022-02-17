@@ -106,6 +106,10 @@ export default function calculate(obj, buttonName) {
       return { ...obj, operation: buttonName };
     }
 
+    if (obj.total === '0') {
+      return { ...obj, total: '0' };
+    }
+
     return {
       total: operate(obj.total, obj.next, obj.operation),
       next: null,
