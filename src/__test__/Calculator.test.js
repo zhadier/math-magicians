@@ -22,21 +22,23 @@ it('an h2 should be displayed', () => {
   expect(screen.getByRole('heading')).toHaveTextContent('Let\'s do some math!');
 });
 
-it('Clicking a button should update the display', () => {
-  render(<Calculator />);
+describe('Testing for changes in calculator display on button press', () => {
+  it('Clicking a button should update the display', () => {
+    render(<Calculator />);
 
-  fireEvent.click(screen.getByText('2'));
+    fireEvent.click(screen.getByText('2'));
 
-  expect(screen.getByTestId('display')).toHaveTextContent('2');
-});
+    expect(screen.getByTestId('display')).toHaveTextContent('2');
+  });
 
-it('Clicking a button should update the display', () => {
-  render(<Calculator />);
+  it('Clicking a button should update the display', () => {
+    render(<Calculator />);
 
-  fireEvent.click(screen.getByText('2'));
-  fireEvent.click(screen.getByText('+'));
-  fireEvent.click(screen.getByText('2'));
-  fireEvent.click(screen.getByText('='));
+    fireEvent.click(screen.getByText('2'));
+    fireEvent.click(screen.getByText('+'));
+    fireEvent.click(screen.getByText('2'));
+    fireEvent.click(screen.getByText('='));
 
-  expect(screen.getByTestId('display')).toHaveTextContent('4');
+    expect(screen.getByTestId('display')).toHaveTextContent('4');
+  });
 });
