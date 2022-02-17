@@ -99,6 +99,7 @@ To learn React, check out the
 👤 **Zeeshan Haider**
 
 - GitHub: [@zhadier](https://github.com/zhadier)
+- LinkedIn: [Zeeshan Haider](https://www.linkedin.com/in/zhadier39/)
 
 ## 🤝 Contributing
 
