@@ -15,6 +15,8 @@
 ## Live Demo
 
 - [Github Page](https://zhadier.github.io/math-magicians)
+- [Heroku](https://zeeshan-math-magicians.herokuapp.com/)
+- [Netlify](https://zhadier-math-magicians.netlify.app/)
 ## Getting Started
 
 ### To launch the project locally:
