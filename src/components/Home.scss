@@ -1,0 +1,13 @@
+.home-section {
+  flex-direction: column;
+  gap: 20px;
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    line-height: 1.3;
+  }
+}

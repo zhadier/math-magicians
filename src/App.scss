@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Poppins&display=swap');
+$dark-blue: rgb(19, 19, 77);
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  background: url(./images/b1.png) center;
+}
+
+section {
+  display: flex;
+  width: 95%;
+  margin: 80px auto;
+  border: 3px solid;
+  border-radius: 10px;
+  background: white;
+  padding: 30px;
+  min-height: 60vh;
+}
+
+h1,
+h2,
+a {
+  font-family: 'Cinzel', serif;
+  color: $dark-blue;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+}
