@@ -7,13 +7,13 @@ const Header = () => (
     <nav className="header__nav">
       <ul>
         <li>
-          <Link to="/math-magicians">Home</Link>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/math-magicians/calculator">Calculator</Link>
+          <Link to="calculator">Calculator</Link>
         </li>
         <li>
-          <Link to="/math-magicians/quote">Quote</Link>
+          <Link to="quote">Quote</Link>
         </li>
       </ul>
     </nav>
